@@ -1,0 +1,35 @@
+<div class="interface flex p-[8px] gap-[5px]">
+    <div class="menu w-[18%] py-[20px] px-[13px]">
+        <div class="menulist flex justify-between aligns-center w-[95%] font-semibold mb-[10px] mx-auto">
+            <h4 class="text-[11px]">ON THE DEVICE</h4>
+            <i class="fa-solid fa-chevron-up text-[8px] mt-[5px]"></i>
+        </div>
+        <app-button-menu label="All contacts" [counter]="154" link="contact-list"/>
+        <app-button-menu label="Activision blizzard" [counter]="17"/>
+        <app-button-menu label="Electronics Arts" [counter]="16"/>
+        <app-button-menu label="Microsoft" [counter]="14"/>
+        <app-button-menu label="Sega" [counter]="12"/>
+        <app-button-menu label="Valve Corporation" [counter]="58"/>
+        <app-button-menu label="Ubisoft" [counter]="21"/>
+        <div class="menulist flex justify-between aligns-center w-[95%] font-semibold mb-[10px] mx-auto">
+            <h4 class="text-[11px]">SYNCED SOURCES</h4>
+            <i class="fa-solid fa-chevron-up text-[8px] mt-[5px]"></i>
+        </div>
+        <app-button-menu label="All Contacts" [counter]="44"/>
+        <app-button-menu label="Gmail" [counter]="54"/>
+        <app-button-menu label="iCloud" [counter]="22"/>
+        <app-button-menu label="Outlook" [counter]="8"/>
+
+        <a href="" class="add w-[100%] flex justify-center aligns-center p-[10px] gap-[6px] mt-[15%]">
+            <i class="fa-solid fa-user-plus text-[14px] mt-[1px]"></i>
+            <span class="text-[14px] font-medium">Add Contact</span>
+        </a>
+        <!-- <a href="" routerLink="contact-list">menu</a> -->
+    </div>
+    <div class="contact-list w-[65%]">
+        <router-outlet/>
+    </div>
+    <div class="user-datas w-[20%]">
+
+    </div>
+</div>

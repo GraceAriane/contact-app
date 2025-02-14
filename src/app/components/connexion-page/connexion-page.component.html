@@ -1,0 +1,46 @@
+<div class="container  relative flex w-[70%] mw-[80%] h-[100vh] m-auto justify-center content-center">
+    <div class="left-card w-[50%] border-3 flex flex-col justify-center gap-[5px] border-3">
+        <div class="logo flex aligns-center justify-between gap-[5px]">
+            <img src="../../../assets/img/networkingnexus.png" class="w-[30px]">
+            <h1 class="title text-[40px] font-semibold">Nexus</h1>
+        </div>
+
+        <div class="elements flex flex-col gap-[10px]">
+            <div class="titles">
+                <h2 class="text-center text-[30px] font-bold">{{title}} !</h2>
+                <h3 class="text-center text-[12px] font-normal text-[#adadad]">{{title}}, please enter Your details</h3>
+            </div>
+            <div class="links flex">
+                <a class="alinks w-[50%] text-center" routerLinkActive="activelink" routerLink="login" (click)="setTitle(false)">Sign In</a>
+                <a class="alinks w-[50%] text-center" routerLinkActive="activelink" routerLink="signin" (click)="setTitle(true)">Sign Up</a>
+            </div>
+            <div class="contain mt-[10px] mb-[10px]">
+                <router-outlet />
+                <!-- (activate)="onActivate($event)"  (loginEvent)="handleLogin($event)" (registerEvent)="handleRegister($event)"-->
+            </div>
+            <div class="button-action w-[70%] m-auto flex justify-center">
+                <button class="" (click)="handleAction()">Continue</button>
+            </div>
+            <div class="other-links flex flex-col gap-[10px]">
+                <div class="divider flex aligns-center text-center my-[20px] justify-center">
+                    <p class="text-[#919191] text-[14px] font-medium">Or Continue With</p>
+                </div>
+                <div class="autres flex justify-center aligns-center gap-[10px]">
+                    <a href=""><img src="../../../assets/img/google.png" alt="" class="w-[30px]"></a>
+                    <a href=""><img src="../../../assets/img/apple.png" alt="" class="w-[30px]"></a>
+                    <a href=""><img src="../../../assets/img/facebook-.png" alt="" class="w-[30px]"></a>
+                </div>
+            </div>
+        </div>
+        <div class="texts text-center text-[12px] font-medium w-[90%]">
+            <p class="text-[#706b6b] text-center">
+                Join the millions of smart investors who trust us to manage their finances. Log in
+                to acces your personalized dashboard, track your portofolio performance and make informed
+                investment decisions
+            </p>
+        </div>
+    </div>
+
+
+    <div class="right-card w-[50%]"></div>
+</div>

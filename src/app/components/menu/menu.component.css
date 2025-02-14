@@ -1,0 +1,24 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.logo h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(39, 38, 38);
+}
+.download{
+    padding: 8px;
+    background-color: rgb(63, 63, 230);
+    border-radius: 5px;
+    color: white;
+}
+.raleway{
+    font-family: "Raleway", serif;
+}
+.semi-bold{
+    font-weight: 600;
+}

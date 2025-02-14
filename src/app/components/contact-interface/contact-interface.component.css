@@ -1,0 +1,22 @@
+.interface{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0,0,0);
+    color: #fff;
+}
+.menu, .user-datas{
+    background-color: rgb(17,17,17);
+    border-radius: 15px;
+}
+.menulist{
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 0px;
+}
+.contact-list{
+    border-radius: 15px;
+}
+.add{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 40px;
+    background-color: rgb(38,105,237);
+}

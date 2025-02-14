@@ -1,0 +1,8 @@
+<div class="input-container relative mx-auto my-[10px] w-[90%]">
+    <span class="icon absolute top-[10px] left-[10px] pr-[10px] pl-[5px]"><i [class]="ioclass"></i></span>
+    <input [type]="type" [placeholder]="placeholder" [(ngModel)]="value" (input)="valueChange.emit(value)">
+    <div class="verif absolute top-[11px] left-[92%]">
+        <i class="fa-solid fa-circle-check check none"></i>
+        <i class="fa-solid fa-circle-xmark false none"></i>
+    </div>
+</div>

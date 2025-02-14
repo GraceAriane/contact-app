@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: rgb(250, 249, 249); */
+}
+.right-card{
+    background: url('../../../assets/img/couple.jpg') center no-repeat;
+    border-radius: 0 15px 15px 0;
+}
+.left-card{
+    border: solid 1px #e7e7e7;
+    border-radius: 15px 0 0 15px;
+    background: #fcfcfc;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.logo h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(39, 38, 38);
+}
+.left-card div{
+    width: 95%;
+    margin: auto;
+}
+.texts, .links a{
+    font-family: "Montserrat", sans-serif;
+}
+.titles{
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+}
+.divider::before, .divider::after{
+    content: "";
+    flex: 1;
+    border-bottom: 1.5px solid #c5c5c5;
+    margin: 0 5px 10px 0px;
+}
+.divider p{
+    margin: 0 5px;
+    font-family: 'Inter', sans-serif;
+}
+.links{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ebe6e6;
+}
+.alinks{
+    padding: 10px;
+    color: #5e5e5e;
+    font-weight: 600;
+}
+.activelink{
+    border-radius: 10px;
+    background: white;
+    font-weight: 800;
+    color: rgb(51, 51, 51);
+}
+@media (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        width: 90%;
+    }
+    .left-card{
+        width: 100%;
+        border-radius: 15px;
+        height: 100%;
+    }
+    .right-card{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width:1025px){
+    .container{
+        max-width: 90%;
+        width: 90%;
+    }
+    .left-card{
+        width: 50%;
+        border-radius: 15px 0 0 15px;
+    }
+    .right-card{
+        width: 50%;
+        height: 100;
+        border-radius: 0px 15px 15px 0px;
+        display: flex;
+        margin: 0;
+    }
+}
+.elements .button-action{
+    width: 80%;
+}
+.button-action button{
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(46, 46, 219);
+    color: white;
+}
+

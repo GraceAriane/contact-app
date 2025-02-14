@@ -1,0 +1,14 @@
+.button{
+    font-family: 'Inter', sans-serif;
+    /* background-color: rgb(21, 88, 211); */
+    color: white;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 15px 50px;
+    border-radius: 30px;
+    text-align: center;
+    transition: ease-in-out 0.3s;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}

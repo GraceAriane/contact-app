@@ -1,0 +1,19 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.logo h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(39, 38, 38);
+}
+.footer{
+    background: url('../../../assets/img/fond12.png') no-repeat center;
+    background-size: cover;
+}
+.inter{
+    font-family: 'Inter', sans-serif;
+}

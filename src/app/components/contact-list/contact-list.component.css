@@ -1,0 +1,33 @@
+.contact-list, .contact-detail{
+    background-color: rgb(17,17,17);
+    border-radius: 15px;
+    height: 97.6vh;
+    display: flex;
+}
+.poppins{
+    font-family: 'poppins', sans-serif;
+}
+.input input{
+    background: transparent;
+    border: solid 1px rgb(98,98,98);
+    border-radius: 25px;
+    outline: none;
+    width: 100%;
+}
+.input input::placeholder{
+    font-size: 13px;
+    font-weight: 400;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.search-elem span{
+    border: solid 1px rgb(98,98,98);
+    cursor: pointer;
+}
+.contact-cards{
+    border: 1px solid red;
+    height: 98%;
+    margin-top: 8px;
+    overflow: auto;
+}

@@ -1,0 +1,24 @@
+<div class="flex gap-[5px]">
+    <div class="contact-list w-[60%] p-[15px] flex flex-col gap-[8px]">
+        <div class="search flex flex-col gap-[5px]">
+            <p class="text-[rgb(98,98,98)] text-[11px] font-semibold poppins">DISPLAYED CONTACTS </p>
+            <div class="search-elem flex gap-[5px]">
+                <div class="input relative w-[80%]">
+                    <i class="fa-solid fa-magnifying-glass absolute top-[15px] left-[13px] text-[15px] text-[rgb(98,98,98)]"></i>
+                    <input type="search" name="" id="" class="pl-[33px] pr-[8px] py-[12px] roboto text-[13px]" placeholder="Search...">
+                </div>
+                <span class="px-[15px] py-[10px] rounded-full self-center text-[13px] text-[rgb(218, 218, 218)]"><i class="fa-solid fa-filter"></i></span>
+                <span class="px-[15px] py-[10px] rounded-full self-center text-[13px] text-[rgb(218, 218, 218)]"><i class="fa-solid fa-arrow-down-a-z"></i></span>
+                <span class="px-[15px] py-[10px] rounded-full self-center text-[13px] text-[rgb(218, 218, 218)]"><i class="fa-solid fa-ellipsis"></i></span>
+            </div>
+        </div>
+
+        <div class="contact-cards flex flex-col">
+            <p class="self-center roboto font-normal text-[rgb(218, 218, 218)] m-auto">Aucun contacts enregistrés.</p>
+        </div>
+
+    </div>
+    <div class="contact-detail w-[40%]">
+        <router-outlet/>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+button{
+    color: rgb(98,98,98);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.button{
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.button:hover{
+    background-color: rgb(38,105,237);
+    button{
+        color: white;
+    }
+    .counter{
+        background-color: white;
+        color: rgb(48,48,48);
+    }
+}
+.counter{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(48,48,48);
+    color: rgb(98,98,98);
+}
+.active{
+    background-color: rgb(38,105,237);
+    button{
+        color: white;
+    }
+    .counter{
+        background-color: white;
+        color: rgb(48,48,48);
+    } 
+}

@@ -1,0 +1,76 @@
+<div class="contain-home">
+    <div class="home w-[100vw] h-[100vh] flex flex-col aligns-center justify-between">
+        <div class="menu w-[98%]">
+            <app-menu/>
+        </div>
+    
+        <div class="login flex flex-col text-[white] mx-auto mw-[80%]">
+            <p class="text-[45px] text-center login-text sm:text-[38px]">Where Calls Meet Convenience</p>
+            <p class="text-[25px] text-center text-[rgb(255,255,255,0.8)] second-p login-text sm:[20px]">Better calls, Better productivity</p>
+            <div class="button m-auto flex justify-center my-[20px]">
+                <app-button text="Get Started" (click)="onContinue()"/>
+            </div>
+            <div class="signin flex justify-center aligns-center gap-[1px]">
+                <span class="text-[15px] text-[rgb(255,255,255,0.8)]">Don't have an account? <a href="" routerLink="connexion-page/signin" class="underline">Sign Up</a> </span>
+            </div>
+        </div>
+    </div>
+    <main class="main ">
+
+        <div class="about flex justify-between aligns-center gap-[20px] h-[100vh] w-[95%] mw-[90%] m-auto">
+            <div class="text-about self-center flex flex-col gap-[30px]">
+                <h2 class="text-[40px] font-medium playfair">WHAT IS <span class="text-[rgb(48,97,208)] font-bold">NEXUS ?</span></h2>
+                <p class="text-left w-[98%] leading-loose raleway font-medium m-auto">
+                    Nexus is the world’s leading customer relationship management technology
+                    (What is CRM?), helping you build and improve your customer relationships.
+                    In 1999 we pioneered cloud-based CRM, and today we’re helping organizations 
+                    of all sizes re-imagine their business for the world of AI. How? With NexusForce, 
+                    providing trusted, autonomous AI agents that take action for your employees and customers.
+                    With unified data from all your systems, so every employee has a 360-degree
+                    view of every customer. And with #1 CRM apps for your sales, service, marketing, commerce, and IT teams.
+                </p>
+            </div>
+            <img src="../../../assets/img/Innovation.gif" alt=""class="w-[40%] self-center">
+        </div>
+
+        <div class="management flex h-[100vh] justify-start aligns-center">
+            <!-- <img src="../../../assets/img/Live collaboration.gif" alt="" class="w-[40%] self-center"> -->
+            <div class="management-text self-center text-left gap-[20px]">
+                <h2 class="playfair text-[40px] font-bold text-[rgb(48,48,48)]">Manage all your contacts efficiently</h2>
+                <p class="raleway text-[rgb(48,48,48)]">
+                    Add personal and organization contacts,
+                    organize them into categories for ease of use and sending mass emails.
+                </p>
+            </div>
+        </div>
+
+        <div class="export flex h-[100vh] justify-between w-[95%] mw-[90%] m-auto">
+            <div class="text-export self-center">
+                <h2 class="text-[40px] font-medium playfair">Import and export contacts</h2>
+                <p class="text-left w-[98%] leading-loose raleway font-medium m-auto">
+                    Import contacts from Google, Outlook,
+                    or by uploading a CSV file. And, export contacts into multiple supported formats.
+                </p>
+            </div>
+            <img src="../../../assets/img/good live.gif" alt="collaboration" class="self-center w-[40%]">
+        </div>
+
+        <div class="testimonials h-[100vh]">
+            <h2>Testimonials</h2>
+        </div>
+
+        <div class="contact-us h-[100vh]">
+            <h2>Contact Us</h2>
+        </div>
+
+        <div class="faq h-[100vh]">
+            <h2>faq</h2>
+        </div>
+
+        <footer>
+            <app-footer/>
+        </footer>
+
+    </main>
+</div>
+
